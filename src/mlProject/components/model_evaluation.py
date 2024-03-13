@@ -36,7 +36,7 @@ class ModelEvaluation:
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
 
-        with mlflow.start_run():
+        with mlflow.start_run(experiment_id=5):
 
             predicted_qualities = model.predict(test_x)
 
