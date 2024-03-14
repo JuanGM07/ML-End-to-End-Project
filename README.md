@@ -32,7 +32,7 @@ conda activate mlproj
 ```
 
 
-### STEP 02- install the requirements
+### STEP 02- Install the requirements
 ```bash
 pip install -r requirements.txt
 ```
@@ -55,26 +55,26 @@ open up you local host and port
 [Documentation](https://mlflow.org/docs/latest/index.html)
 
 
-##### cmd
+##### Cmd
 - mlflow ui
 
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/JuanGM07/ML-End-to-End-Project.mlflow \
-MLFLOW_TRACKING_USERNAME=JuanGM07 \
-MLFLOW_TRACKING_PASSWORD=6c1a63e04c0ee83b9aa4bba61e23b3198c583a9c \
+MLFLOW_TRACKING_URI=Your_mlflow_tracking_url \
+MLFLOW_TRACKING_USERNAME=Your_mlflow_tracking_username \
+MLFLOW_TRACKING_PASSWORD=Your_mlflow_tracking_password \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/JuanGM07/ML-End-to-End-Project.mlflow
+export MLFLOW_TRACKING_URI=Your_mlflow_tracking_url
 
-export MLFLOW_TRACKING_USERNAME=JuanGM07  
+export MLFLOW_TRACKING_USERNAME=Your_mlflow_tracking_username
 
-export MLFLOW_TRACKING_PASSWORD=6c1a63e04c0ee83b9aa4bba61e23b3198c583a9c
+export MLFLOW_TRACKING_PASSWORD=Your_mlflow_tracking_password
 
 ```
 
